@@ -1,0 +1,564 @@
+
+body{
+    background-image: url("..//img/Miranhagif.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.br{
+    border: 10px;
+    background-color: aqua;
+    height: 100%;
+}
+
+.btTeste{
+    background-color:  rgb(23, 29, 15);        
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    height: 50px;
+    width: 100px;
+    text-transform: uppercase;
+
+    font-weight: bold;
+    color: rgb(226, 224, 235);
+    border:  2px solid rgb(231, 7, 7);
+
+    font-family: "Itim", coursive;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+    padding: 15px;
+    border-radius: 16px;
+
+    text-shadow: 0 0 8px rgb(218, 38, 40);
+    box-shadow: inset 0 0 32px rgb(218, 38, 40),0 0 32px rgb(218, 38, 40);
+}
+.btTeste:hover{
+    background-color: rgb(218, 38, 38);
+    color: rgb(69, 51, 167);
+    cursor: pointer;
+}
+.btTabuada{
+    background-color:  rgb(23, 29, 15);        
+    position: absolute;
+    top: %;
+    left: 50%;
+    height: 50px;
+    width: 100px;
+    text-transform: uppercase;
+
+    font-weight: bold;
+    color: rgb(226, 224, 235);
+    border:  2px solid rgb(231, 7, 7);
+
+    font-family: "Itim", coursive;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+    padding: 15px;
+    border-radius: 16px;
+
+    text-shadow: 0 0 8px rgb(218, 38, 40);
+    box-shadow: inset 0 0 32px rgb(218, 38, 40),0 0 32px rgb(218, 38, 40);
+}
+.btTabuada:hover{
+    background-color: rgb(218, 38, 38);
+    color: rgb(69, 51, 167);
+    cursor: pointer;
+}
+.btimc{
+    background-color:  rgb(23, 29, 15);
+    position:absolute;
+    top: %;
+    left: 25%;
+   height: 50px;
+    width: 100px;           
+    text-transform: uppercase;
+
+    font-weight: bold;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+
+    font-family: "Itim", coursive;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+    padding: 15px;
+    border-radius: 16px;
+
+    text-shadow: 0 0 8px rgb(218, 38, 40);
+    box-shadow: inset 0 0 32px rgb(218, 38, 40),0 0 32px rgb(218, 38, 40);
+
+}
+
+.btimc:hover{
+    background-color: rgb(218, 38, 38);
+    color: rgb(69, 51, 167);
+    cursor: pointer
+}
+
+.bthorasvividas{
+    background-color: rgb(23, 29, 15);
+    position:absolute;
+    top: %;
+    left: 75%;
+
+    height: 50px;
+    width: 100px;  
+    display:block         
+    text-transform: uppercase;
+
+    font-weight: bold;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+
+
+    font-family: "Itim", coursive;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+    padding: 15px;
+    border-radius: 16px;
+
+    text-shadow: 0 0 8px rgb(218, 38, 40);
+    box-shadow: inset 0 0 32px rgb(218, 38, 40),0 0 32px rgb(218, 38, 40);
+}
+
+.bthorasvividas:hover{
+    background-color: rgb(218, 38, 38);
+    color: rgb(69, 51, 167);
+    cursor: pointer
+}
+
+.btparimpar{
+    
+
+
+    background-color:  rgb(23, 29, 15);
+    position:absolute;
+    top: %;
+    left: 02%;
+
+   height: 50px;
+    width: 100px;  
+    display:block         
+    text-transform: uppercase;
+
+    font-family: "Itim", coursive;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+    padding: 15px;
+    border-radius: 16px;
+
+    text-shadow: 0 0 8px rgb(218, 38, 40);
+    box-shadow: inset 0 0 32px rgb(218, 38, 40),0 0 32px rgb(218, 38, 40);
+    
+
+
+}
+
+.btparimpar:hover{
+
+    background-color: rgb(218, 38, 38);
+    color: rgb(69, 51, 167);
+    cursor: pointer
+}
+
+.btparimpar::before{
+    pointer-events: none;
+
+    content: "";
+    psiition: absolute;
+    top: 100%;
+    left: 02%;
+
+   height: 50px;
+    width: 100px;
+
+    transform: pespective(64px) rotateX(40deg) scale(1, 0.35);
+    filter: blur(64px);
+    opacity: 0,7;
+
+}
+.btDiasViajado{
+    
+    background-color: rgb(23, 29, 15);
+    position:absolute;
+    top: 25%;
+    left: 25%;
+
+   height: 50px;
+    width: 100px;  
+    display:block         
+    text-transform: uppercase;
+
+    font-fam;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+    
+    font-family: "Itim", coursive;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+    padding: 15px;
+    border-radius: 16px;
+
+    text-shadow: 0 0 8px rgb(218, 38, 40);
+    box-shadow: inset 0 0 32px rgb(218, 38, 40),0 0 32px rgb(218, 38, 40);
+}
+
+.btDiasViajado:hover{
+    
+    background-color: rgb(218, 38, 38);
+    color: rgb(69, 51, 167);
+    cursor: pointer
+
+}
+
+.btdobro{
+    
+    background-color: rgb(23, 29, 15);
+    position:absolute;
+    top: 25%;
+    left: 02%;
+
+   height: 50px;
+    width: 100px;  
+    display:block         
+    text-transform: uppercase;
+
+    font-fam;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+
+    font-family: "Itim", coursive;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+    padding: 15px;
+    border-radius: 16px;
+
+    text-shadow: 0 0 8px rgb(218, 38, 40);
+    box-shadow: inset 0 0 32px rgb(218, 38, 40),0 0 32px rgb(218, 38, 40);
+    
+}
+
+.btdobro:hover{
+    
+    background-color: rgb(218, 38, 38);
+    color: rgb(69, 51, 167);
+    cursor: pointer
+
+}
+
+.media{
+    background-color: rgb(23, 29, 15);
+    position:absolute;
+    top: 25%;
+    left: 50%;
+
+   height: 50px;
+    width: 100px;  
+    display:block         
+    text-transform: uppercase;
+
+    font-fam;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+    
+    font-family: "Itim", coursive;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+    padding: 15px;
+    border-radius: 16px;
+
+    text-shadow: 0 0 8px rgb(218, 38, 40);
+    box-shadow: inset 0 0 32px rgb(218, 38, 40),0 0 32px rgb(218, 38, 40);
+
+}
+
+.media:hover{
+    
+    background-color: rgb(218, 38, 38);
+    color: rgb(69, 51, 167);
+    cursor: pointer
+
+}
+.salario{
+    background-color: rgb(23, 29, 15);
+    position:absolute;
+    top: 25%;
+    left: 75%;
+
+   height: 50px;
+    width: 100px;  
+    display:block         
+    text-transform: uppercase;
+
+    font-fam;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+
+    font-family: "Itim", coursive;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+    padding: 15px;
+    border-radius: 16px;
+
+    text-shadow: 0 0 8px rgb(218, 38, 40);
+    box-shadow: inset 0 0 32px rgb(218, 38, 40),0 0 32px rgb(218, 38, 40);
+    
+
+}
+.salario:hover{
+    background-color: rgb(218, 38, 38);
+    color: rgb(69, 51, 167);
+    cursor: pointer
+
+}
+.percentual{
+    background-color: rgb(23, 29, 15);
+    position:absolute;
+    top: 75%;
+    left: 02%;
+
+   height: 50px;
+    width: 100px;  
+    display:block         
+    text-transform: uppercase;
+
+    font-fam;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+
+    font-family: "Itim", coursive;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+    padding: 15px;
+    border-radius: 16px;
+
+    text-shadow: 0 0 8px rgb(218, 38, 40);
+    box-shadow: inset 0 0 32px rgb(218, 38, 40),0 0 32px rgb(218, 38, 40);
+    
+
+}
+.percentual:hover{
+    background-color: rgb(218, 38, 38);
+    color: rgb(69, 51, 167);
+    cursor: pointer
+}
+
+.idade{
+    background-color: rgb(23, 29, 15);
+    position:absolute;
+    top: 75%;
+    left: 25%;
+
+   height: 50px;
+    width: 100px;  
+    display:block         
+    text-transform: uppercase;
+
+    font-fam;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+
+    font-family: "Itim", coursive;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+    padding: 15px;
+    border-radius: 16px;
+
+    text-shadow: 0 0 8px rgb(218, 38, 40);
+    box-shadow: inset 0 0 32px rgb(218, 38, 40),0 0 32px rgb(218, 38, 40);
+    
+
+}
+.idade:hover{
+    background-color: rgb(218, 38, 38);
+    color: rgb(69, 51, 167);
+    cursor: pointer
+}
+.areaRetangulo{
+    background-color: rgb(23, 29, 15);
+    position:absolute;
+    top: 75%;
+    left: 50%;
+
+   height: 50px;
+    width: 100px;  
+    display:block         
+    text-transform: uppercase;
+
+    font-fam;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+
+    font-family: "Itim", coursive;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+    padding: 15px;
+    border-radius: 16px;
+
+    text-shadow: 0 0 8px rgb(218, 38, 40);
+    box-shadow: inset 0 0 32px rgb(218, 38, 40),0 0 32px rgb(218, 38, 40);
+}
+
+.areaRetangulo:hover{
+    background-color: rgb(218, 38, 38);
+    color: rgb(69, 51, 167);
+    cursor: pointer
+}
+.arraY{
+    background-color: rgb(23, 29, 15);
+    position:absolute;
+    top: 75%;
+    left: 75%;
+
+   height: 50px;
+    width: 100px;  
+    display:block         
+    text-transform: uppercase;
+
+    font-fam;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+
+    font-family: "Itim", coursive;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+    padding: 15px;
+    border-radius: 16px;
+
+    text-shadow: 0 0 8px rgb(218, 38, 40);
+    box-shadow: inset 0 0 32px rgb(218, 38, 40),0 0 32px rgb(218, 38, 40);
+}
+
+.arraY:hover{
+    background-color: rgb(218, 38, 38);
+    color: rgb(69, 51, 167);
+    cursor: pointer
+}
+
+.art{
+    background-color: rgb(23, 29, 15);
+    position:absolute;
+    top: 02%;
+    left: 75%;
+
+   height: 50px;
+    width: 100px;  
+    display:block         
+    text-transform: uppercase;
+
+    font-fam;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+
+    font-family: "Itim", coursive;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+    padding: 15px;
+    border-radius: 16px;
+
+    text-shadow: 0 0 8px rgb(218, 38, 40);
+    box-shadow: inset 0 0 32px rgb(218, 38, 40),0 0 32px rgb(218, 38, 40);
+}
+
+.art:hover{
+    background-color: rgb(218, 38, 38);
+    color: rgb(69, 51, 167);
+    cursor: pointer
+}
+.cem{
+    background-color: rgb(23, 29, 15);
+    position:absolute;
+    top: 02%;
+    left: 25%;
+
+   height: 50px;
+    width: 100px;  
+    display:block         
+    text-transform: uppercase;
+
+    font-fam;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+
+    font-family: "Itim", coursive;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+    padding: 15px;
+    border-radius: 16px;
+
+    text-shadow: 0 0 8px rgb(218, 38, 40);
+    box-shadow: inset 0 0 32px rgb(218, 38, 40),0 0 32px rgb(218, 38, 40);
+}
+.cem:hover{
+    background-color: rgb(218, 38, 38);
+    color: rgb(69, 51, 167);
+    cursor: pointer
+}
+.nasc{
+    background-color: rgb(23, 29, 15);
+    position:absolute;
+    top: 02%;
+    left: 02%;
+
+   height: 50px;
+    width: 100px;  
+    display:block         
+    text-transform: uppercase;
+
+    font-fam;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+
+    font-family: "Itim", coursive;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+    padding: 15px;
+    border-radius: 16px;
+
+    text-shadow: 0 0 8px rgb(218, 38, 40);
+    box-shadow: inset 0 0 32px rgb(218, 38, 40),0 0 32px rgb(218, 38, 40);
+}
+.nasc:hover{
+    background-color: rgb(218, 38, 38);
+    color: rgb(69, 51, 167);
+    cursor: pointer
+}
+.reaj{
+    background-color: rgb(23, 29, 15);
+    position:absolute;
+    top: 02%;
+    left: 50%;
+
+    height: 50px;
+    width: 100px;  
+    display:block         
+    text-transform: uppercase;
+
+    font-fam;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+
+    font-family: "Itim", coursive;
+    color: rgb(240, 235, 235);
+    border:  2px solid  rgb(231, 7, 7);
+    padding: 15px;
+    border-radius: 16px;
+
+    text-shadow: 0 0 8px rgb(218, 38, 40);
+    box-shadow: inset 0 0 32px rgb(218, 38, 40),0 0 32px rgb(218, 38, 40);
+}
+.reaj:hover{
+    background-color: rgb(218, 38, 38);
+    color: rgb(69, 51, 167);
+    cursor: pointer
+}
+
+.ola{
+    position: absolute;
+    top: 01%;
+    width: 0%;
+}
